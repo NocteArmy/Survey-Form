@@ -1,0 +1,58 @@
+/* Imports
+----------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+
+/* Global Styles
+----------------------------*/
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+.jumbotron-fluid {
+  background: #EDF2F4;
+  padding: 20px 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+h2 {
+  margin-top: 0;
+}
+#title {
+  font-weight: 700;
+  text-align: center;
+}
+.title {
+  text-align: center;
+}
+h3 {
+  margin: 0;
+}
+p {
+  font-family: inherit;
+  font-weight: 100;
+}
+li {
+  font-family: inherit;
+  font-weight: 100;
+}
+a {
+  color: #c18934;
+}
+a:hover {
+  text-decoration: none;
+}
+.btn-dark {
+  color: #c18934;
+  background: #2B2D42;
+}
+label, legend, #improve-label {
+  text-align: right;
+}
+span {
+  color: #e05868;
+  font-weight: 400;
+  font-size: 1.15em;
+}
