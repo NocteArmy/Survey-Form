@@ -23,24 +23,26 @@
           <p id="description" class="title">Let us know how we can improve freeCodeCamp</p>
           <div class="form-group row">
             <label id="name-label" for="name" class="col-sm-4 col-form-label">Name<span> *</span></label>
-            <div class="col-sm-8"><input type="text" class="form-control" id="name" placeholder="John Doe" required></div>
+            <div class="col-sm-4"><input type="text" class="form-control" id="name" placeholder="John Doe" required></div>
           </div>
           <div class="form-group row">
             <label id="email-label" for="email" class="col-sm-4 col-form-label">Email<span> *</span></label>
-            <div class="col-sm-8"><input type="email" class="form-control" id="email" placeholder="john.doe@email.com" required></div>
+            <div class="col-sm-4"><input type="email" class="form-control" id="email" placeholder="john.doe@email.com" required></div>
           </div>
           <div class="form-group row">
             <label id="number-label" for="number" class="col-sm-4 col-form-label">Age<span> *</span></label>
-            <div class="col-sm-8"><input type="number" min="1" max="100" class="form-control" id="number" placeholder="25" required></div>
+            <div class="col-sm-4"><input type="number" min="1" max="100" class="form-control" id="number" placeholder="25" required></div>
           </div>
           <div class="form-group row">
             <label id="role-label" for="role" class="col-sm-4 col-form-label">Which option best describes your current role?</label>
-            <div class="col-sm-8">
+            <div class="col-sm-4">
               <select id="dropdown" class="custom-select">
                 <option selected>Select a role</option>
                 <option value="student">Student</option>
                 <option value="full-time">Full-time</option>
                 <option value="part-time">Part-time</option>
+                <option value="contract">Contract</option>
+                <option value="freelance">Freelandce</option>
                 <option value="N-A">Prefer not to say</option>
                 <option value="other">Other</option>
               </select>
@@ -49,7 +51,7 @@
           <fieldset class="form-group">
             <div class="row">
               <legend class="col-form-label col-sm-4 pt-0">How likely are you to recommend freeCodeCamp to a friend?</legend>
-              <div class="col-sm-8">
+              <div class="col-sm-4">
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="recommend" id="yes" value="yes">
                   <label class="form-check-label" for="yes">Definitely</label>
@@ -67,7 +69,7 @@
           </fieldset>
           <div class="form-group row">
             <div id="improve-label" class="col-sm-4">Things that should be improved in the future (Check all that apply):</div>
-            <div class="col-sm-8">
+            <div class="col-sm-4">
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="front-end" id="front-end">
                 <label class="form-check=label" for="front-end">Front-End Projects</label>
@@ -92,9 +94,9 @@
           </div>
           <div class="form-group row">
             <label id="comment-label" for="comment" class="col-sm-4 col-form-label">Any Comments or Suggestions?</label>
-            <div class="col-sm-8"><textarea type="text" class="form-control" id="comment" placeholder="None, we are awesome!"></textarea></div>
+            <div class="col-sm-4"><textarea type="text" class="form-control" id="comment" placeholder="None, we are awesome!"></textarea></div>
           </div>
-          <div class="row justify-content-center"><button id="submit" type="submit" class="btn btn-dark">Submit</button></div>
+          <div class="row justify-content-center"><button id="submit" type="submit" class="submit-btn">Submit</button></div>
         </form>
       </div>
     </div>
